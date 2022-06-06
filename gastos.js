@@ -36,5 +36,5 @@ function sumarValores() {
 function mostrarPagoIndividualEnHTML() {
     const total = sumarValores(pagos);
     const aporteIndividual = total / usuarios.length;
-    cuadroResultado.innerText = 'Total: ${total} A cada uno le toca aportar: ${aporteIndividual.toFixed(2)}';
+    cuadroResultado.innerText = 'Total: ${total} los demas pagan: ${aporteIndividual.toFixed(2)}';
 }
